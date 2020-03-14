@@ -1,0 +1,64 @@
+git clone https://github.com/nico-ui/Final-Check.git   ///1 vez
+	ls -a //comprobación de que se ha creado la carpeta .git (branch master)
+	//copiar la carpeta de nuestro proyecto a la misma altura que la carpeta .git
+	git status //comprobación de cambios
+git add .
+git config -global user.email "tu@correo.com"
+git config -global user.name "nombre"
+git commit -m "Primera Version"
+git push -u origin master
+
+SEGUNDA VERSION
+1. Eliminar carpeta src actual y copiar la nueva version.
+2. git status //verificación
+3. git add --all
+4. git commit -m "Segunda Version"
+5. git push
+------------------------
+
+git init
+git add .	
+git config -global user.email "tu@correo.com"
+git config -global user.name "nombre"
+git commit -m "Primera Version"
+git remote add origin git@itlab.comhaco91/totu.git
+	git remote rm origin
+git push -u origin master
+
+
+--------------------------PELON 
+git init	//crea repositorio vacio
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/nico-ui/Final-Check-Try2.git
+git push -u origin master
+	 refresh 
+                                                                 
+
+
+
+----------------------------
+
+En cada confirmación de cambios (commit)
+git init crea por defecto La rama “master”. Es como cualquier otra rama-
+git log para que te muestre a dónde apunta cada rama. 
+git checkout testing. Cambiar de Rama. Esto mueve el apuntador HEAD a la rama testing.
+
+Es importante destacar que cuando saltas a una rama en Git, los archivos de tu directorio de trabajo cambian.
+
+Los cambios realizados en ambas sesiones de trabajo están aislados en ramas independientes: puedes saltar libremente de una a otra según estimes oportuno
+con tres comandos: git branch, git checkout y git commit.
+
+git log --oneline --decorate --graph --all te mostrará el historial de tus confirmaciones, indicando dónde están los apuntadores de tus ramas y como ha divergido tu historial.
+
+
+
+HEAD apuntador especial
+es simplemente el apuntador a la rama local en la que tú estés en ese momento, en este caso la rama master
+
+https://git-scm.com/book/es/v2/Ramificaciones-en-Git-¿Qué-es-una-rama%3F
+
+-------------------------------
+
+
+                                                                                       
